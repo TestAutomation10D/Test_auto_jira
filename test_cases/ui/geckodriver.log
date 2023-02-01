@@ -1,0 +1,700 @@
+1660630545964	geckodriver	INFO	Listening on 127.0.0.1:46441
+1660630545979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenWSCET"
+*** You are running in headless mode.
+1660630546509	Marionette	INFO	Marionette enabled
+1660630546514	Marionette	INFO	Listening on port 42685
+Read port: 42685
+1660630546669	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenWSCET/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:///home/suryamr/jira_org/test_cases/ui/reports/year_2022/month_08/date_11/Test_report_2022_08_11_10_49_38.html, line 1193: TypeError: document.getElementById(...) is null
+[Parent 17267, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:17267): GLib-GObject-CRITICAL **: 11:45:55.098: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 17267, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:17267): GLib-GObject-CRITICAL **: 11:45:57.736: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 17267, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:17267): GLib-GObject-CRITICAL **: 11:46:03.057: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660630567248	Marionette	INFO	Stopped listening on port 42685
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660630656229	geckodriver	INFO	Listening on 127.0.0.1:48233
+1660630656248	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileRqdtv8"
+*** You are running in headless mode.
+1660630656662	Marionette	INFO	Marionette enabled
+1660630656667	Marionette	INFO	Listening on port 39855
+Read port: 39855
+1660630656921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRqdtv8/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:///home/suryamr/jira_org/test_cases/ui/reports/year_2022/month_08/date_11/Test_report_2022_08_11_10_49_38.html, line 1193: TypeError: document.getElementById(...) is null
+[Parent 17632, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:17632): GLib-GObject-CRITICAL **: 11:47:44.340: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 17632, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:17632): GLib-GObject-CRITICAL **: 11:47:47.255: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 17632, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:17632): GLib-GObject-CRITICAL **: 11:47:52.570: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660630676775	Marionette	INFO	Stopped listening on port 39855
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660630821164	geckodriver	INFO	Listening on 127.0.0.1:47333
+1660630821182	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqSH2Zt"
+*** You are running in headless mode.
+1660630821590	Marionette	INFO	Marionette enabled
+1660630821595	Marionette	INFO	Listening on port 35427
+Read port: 35427
+1660630821772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqSH2Zt/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:///home/suryamr/jira_org/test_cases/ui/reports/year_2022/month_08/date_11/Test_report_2022_08_11_10_49_38.html, line 1193: TypeError: document.getElementById(...) is null
+[Parent 18008, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18008): GLib-GObject-CRITICAL **: 11:50:29.212: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 18008, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18008): GLib-GObject-CRITICAL **: 11:50:32.168: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 18008, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18008): GLib-GObject-CRITICAL **: 11:50:37.463: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660630841668	Marionette	INFO	Stopped listening on port 35427
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660630969773	geckodriver	INFO	Listening on 127.0.0.1:56467
+1660630969801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileiEzuwN"
+*** You are running in headless mode.
+1660630970219	Marionette	INFO	Marionette enabled
+1660630970224	Marionette	INFO	Listening on port 39159
+Read port: 39159
+1660630970475	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiEzuwN/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+1660630972004	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1660630972960	Marionette	INFO	Stopped listening on port 39159
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 69: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1660631022054	geckodriver	INFO	Listening on 127.0.0.1:38451
+1660631022071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileOUo9Ba"
+*** You are running in headless mode.
+1660631022506	Marionette	INFO	Marionette enabled
+1660631022511	Marionette	INFO	Listening on port 45485
+Read port: 45485
+1660631022633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOUo9Ba/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 18650, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18650): GLib-GObject-CRITICAL **: 11:53:50.208: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 18650, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18650): GLib-GObject-CRITICAL **: 11:53:53.228: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 18650, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18650): GLib-GObject-CRITICAL **: 11:53:58.498: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660631042704	Marionette	INFO	Stopped listening on port 45485
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660631119404	geckodriver	INFO	Listening on 127.0.0.1:45299
+1660631119419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileEXByvo"
+*** You are running in headless mode.
+1660631119835	Marionette	INFO	Marionette enabled
+1660631119840	Marionette	INFO	Listening on port 46749
+Read port: 46749
+1660631119979	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEXByvo/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 18961, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18961): GLib-GObject-CRITICAL **: 11:55:27.423: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 18961, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18961): GLib-GObject-CRITICAL **: 11:55:30.470: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 18961, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:18961): GLib-GObject-CRITICAL **: 11:55:35.731: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660631139929	Marionette	INFO	Stopped listening on port 46749
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660631274948	geckodriver	INFO	Listening on 127.0.0.1:36995
+1660631274967	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofile6MGGre"
+*** You are running in headless mode.
+1660631275387	Marionette	INFO	Marionette enabled
+1660631275392	Marionette	INFO	Listening on port 41611
+Read port: 41611
+1660631275632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6MGGre/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 19315, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:19315): GLib-GObject-CRITICAL **: 11:58:02.982: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 19315, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:19315): GLib-GObject-CRITICAL **: 11:58:06.037: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 19315, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:19315): GLib-GObject-CRITICAL **: 11:58:11.351: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660631295556	Marionette	INFO	Stopped listening on port 41611
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660631489176	geckodriver	INFO	Listening on 127.0.0.1:51975
+1660631489192	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileb2g4HH"
+*** You are running in headless mode.
+1660631489593	Marionette	INFO	Marionette enabled
+1660631489598	Marionette	INFO	Listening on port 43417
+Read port: 43417
+1660631489852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb2g4HH/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 19929, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:19929): GLib-GObject-CRITICAL **: 12:01:37.227: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 19929, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:19929): GLib-GObject-CRITICAL **: 12:01:40.185: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 19929, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:19929): GLib-GObject-CRITICAL **: 12:01:45.491: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660631509689	Marionette	INFO	Stopped listening on port 43417
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660631634915	geckodriver	INFO	Listening on 127.0.0.1:43673
+1660631635936	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileJrt10J"
+*** You are running in headless mode.
+1660631636349	Marionette	INFO	Marionette enabled
+1660631636354	Marionette	INFO	Listening on port 40377
+Read port: 40377
+1660631636612	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJrt10J/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 20261, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:20261): GLib-GObject-CRITICAL **: 12:04:03.976: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 20261, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:20261): GLib-GObject-CRITICAL **: 12:04:07.011: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 20261, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:20261): GLib-GObject-CRITICAL **: 12:04:12.277: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660631656473	Marionette	INFO	Stopped listening on port 40377
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660632308705	geckodriver	INFO	Listening on 127.0.0.1:47499
+1660632308720	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilerodw3v"
+*** You are running in headless mode.
+1660632309116	Marionette	INFO	Marionette enabled
+1660632309121	Marionette	INFO	Listening on port 46291
+Read port: 46291
+1660632309385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerodw3v/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1660632346999	geckodriver	INFO	Listening on 127.0.0.1:52907
+1660632348017	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofile1ng5ro"
+*** You are running in headless mode.
+1660632348457	Marionette	INFO	Marionette enabled
+1660632348463	Marionette	INFO	Listening on port 39503
+Read port: 39503
+1660632348587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1ng5ro/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 21318, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:21318): GLib-GObject-CRITICAL **: 12:15:56.208: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 21318, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:21318): GLib-GObject-CRITICAL **: 12:15:59.218: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 21318, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:21318): GLib-GObject-CRITICAL **: 12:16:04.504: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660632368698	Marionette	INFO	Stopped listening on port 39503
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660632383752	geckodriver	INFO	Listening on 127.0.0.1:46495
+1660632384768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilefP1vxH"
+*** You are running in headless mode.
+1660632385223	Marionette	INFO	Marionette enabled
+1660632385228	Marionette	INFO	Listening on port 36511
+Read port: 36511
+1660632385349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefP1vxH/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 21599, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:21599): GLib-GObject-CRITICAL **: 12:16:33.012: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 21599, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:21599): GLib-GObject-CRITICAL **: 12:16:35.859: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 21599, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:21599): GLib-GObject-CRITICAL **: 12:16:41.234: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660632405425	Marionette	INFO	Stopped listening on port 36511
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660632709034	geckodriver	INFO	Listening on 127.0.0.1:44187
+1660632710079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilenZz1Y1"
+*** You are running in headless mode.
+1660632710491	Marionette	INFO	Marionette enabled
+1660632710496	Marionette	INFO	Listening on port 37173
+Read port: 37173
+1660632710742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenZz1Y1/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 22268, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:22268): GLib-GObject-CRITICAL **: 12:21:58.270: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 22268, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:22268): GLib-GObject-CRITICAL **: 12:22:01.273: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 22268, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:22268): GLib-GObject-CRITICAL **: 12:22:06.585: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660632730785	Marionette	INFO	Stopped listening on port 37173
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660633828870	geckodriver	INFO	Listening on 127.0.0.1:57587
+1660633829912	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileMXnGBw"
+*** You are running in headless mode.
+1660633830318	Marionette	INFO	Marionette enabled
+1660633830323	Marionette	INFO	Listening on port 44987
+Read port: 44987
+1660633830598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMXnGBw/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 23836, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:23836): GLib-GObject-CRITICAL **: 12:40:38.405: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 23836, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:23836): GLib-GObject-CRITICAL **: 12:40:41.247: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 23836, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:23836): GLib-GObject-CRITICAL **: 12:40:46.561: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660633850756	Marionette	INFO	Stopped listening on port 44987
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660633958277	geckodriver	INFO	Listening on 127.0.0.1:40217
+1660633959338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileh421cE"
+*** You are running in headless mode.
+1660633959774	Marionette	INFO	Marionette enabled
+1660633959779	Marionette	INFO	Listening on port 37487
+Read port: 37487
+1660633959906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileh421cE/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 24193, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:24193): GLib-GObject-CRITICAL **: 12:42:47.613: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 24193, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:24193): GLib-GObject-CRITICAL **: 12:42:50.656: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 24193, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:24193): GLib-GObject-CRITICAL **: 12:42:55.911: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660633980109	Marionette	INFO	Stopped listening on port 37487
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660634231828	geckodriver	INFO	Listening on 127.0.0.1:35819
+1660634232886	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilepUedTK"
+*** You are running in headless mode.
+1660634233320	Marionette	INFO	Marionette enabled
+1660634233326	Marionette	INFO	Listening on port 46377
+Read port: 46377
+1660634233464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepUedTK/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1660634947488	geckodriver	INFO	Listening on 127.0.0.1:36837
+1660634948531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileUDjeLH"
+*** You are running in headless mode.
+1660634948930	Marionette	INFO	Marionette enabled
+1660634948936	Marionette	INFO	Listening on port 38749
+Read port: 38749
+1660634949228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUDjeLH/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 25356, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:25356): GLib-GObject-CRITICAL **: 12:59:16.618: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 25356, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:25356): GLib-GObject-CRITICAL **: 12:59:19.618: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 25356, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:25356): GLib-GObject-CRITICAL **: 12:59:24.884: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660634969086	Marionette	INFO	Stopped listening on port 38749
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660635603153	geckodriver	INFO	Listening on 127.0.0.1:37897
+1660635603171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilez6shV6"
+*** You are running in headless mode.
+1660635603697	Marionette	INFO	Marionette enabled
+1660635603702	Marionette	INFO	Listening on port 33429
+Read port: 33429
+1660635603903	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilez6shV6/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 26086, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:26086): GLib-GObject-CRITICAL **: 13:10:11.756: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 26086, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:26086): GLib-GObject-CRITICAL **: 13:10:14.718: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 26086, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:26086): GLib-GObject-CRITICAL **: 13:10:19.991: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660635624190	Marionette	INFO	Stopped listening on port 33429
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660636292302	geckodriver	INFO	Listening on 127.0.0.1:54265
+1660636292314	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileAz206j"
+*** You are running in headless mode.
+1660636292726	Marionette	INFO	Marionette enabled
+1660636292731	Marionette	INFO	Listening on port 44589
+Read port: 44589
+1660636292995	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAz206j/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 26833, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:26833): GLib-GObject-CRITICAL **: 13:21:40.959: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 26833, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:26833): GLib-GObject-CRITICAL **: 13:21:43.745: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 26833, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:26833): GLib-GObject-CRITICAL **: 13:21:49.059: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660636313255	Marionette	INFO	Stopped listening on port 44589
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660636420998	geckodriver	INFO	Listening on 127.0.0.1:36489
+1660636421013	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileqpbTaP"
+*** You are running in headless mode.
+1660636421430	Marionette	INFO	Marionette enabled
+1660636421434	Marionette	INFO	Listening on port 36745
+Read port: 36745
+1660636421685	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqpbTaP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 27181, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27181): GLib-GObject-CRITICAL **: 13:23:49.362: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 27181, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27181): GLib-GObject-CRITICAL **: 13:23:52.385: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 27181, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27181): GLib-GObject-CRITICAL **: 13:23:57.666: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660636441872	Marionette	INFO	Stopped listening on port 36745
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660636478833	geckodriver	INFO	Listening on 127.0.0.1:37777
+1660636478851	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileul9ChW"
+*** You are running in headless mode.
+1660636479259	Marionette	INFO	Marionette enabled
+1660636479264	Marionette	INFO	Listening on port 35849
+Read port: 35849
+1660636479513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileul9ChW/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 27460, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27460): GLib-GObject-CRITICAL **: 13:24:46.896: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 27460, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27460): GLib-GObject-CRITICAL **: 13:24:49.936: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 27460, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27460): GLib-GObject-CRITICAL **: 13:24:55.193: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660636499393	Marionette	INFO	Stopped listening on port 35849
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
+1660636664339	geckodriver	INFO	Listening on 127.0.0.1:53019
+1660636664360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilel6FEBZ"
+*** You are running in headless mode.
+1660636664785	Marionette	INFO	Marionette enabled
+1660636664790	Marionette	INFO	Listening on port 34837
+Read port: 34837
+1660636665066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel6FEBZ/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 27880, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27880): GLib-GObject-CRITICAL **: 13:27:53.558: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 27880, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27880): GLib-GObject-CRITICAL **: 13:27:56.593: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 27880, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:27880): GLib-GObject-CRITICAL **: 13:28:01.996: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660636686204	Marionette	INFO	Stopped listening on port 34837
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660640015278	geckodriver	INFO	Listening on 127.0.0.1:33051
+1660640016310	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofile6MdCJm"
+*** You are running in headless mode.
+1660640016718	Marionette	INFO	Marionette enabled
+1660640016723	Marionette	INFO	Listening on port 41099
+Read port: 41099
+1660640016911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6MdCJm/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 29334, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:29334): GLib-GObject-CRITICAL **: 14:23:44.845: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 29334, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:29334): GLib-GObject-CRITICAL **: 14:23:47.646: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 29334, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:29334): GLib-GObject-CRITICAL **: 14:23:52.939: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660640037139	Marionette	INFO	Stopped listening on port 41099
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660640082060	geckodriver	INFO	Listening on 127.0.0.1:38661
+1660640082076	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileXzq7EB"
+*** You are running in headless mode.
+1660640082487	Marionette	INFO	Marionette enabled
+1660640082492	Marionette	INFO	Listening on port 42083
+Read port: 42083
+1660640082742	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXzq7EB/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+[Parent 29642, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:29642): GLib-GObject-CRITICAL **: 14:24:50.223: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 29642, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:29642): GLib-GObject-CRITICAL **: 14:24:53.155: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+[Parent 29642, Main Thread] WARNING: g_object_get: assertion 'G_IS_OBJECT (object)' failed: 'glib warning', file /build/firefox-6yohV0/firefox-103.0+build1/toolkit/xre/nsSigHandlers.cpp:167
+
+(firefox:29642): GLib-GObject-CRITICAL **: 14:24:58.471: g_object_get: assertion 'G_IS_OBJECT (object)' failed
+1660640102669	Marionette	INFO	Stopped listening on port 42083
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660640216524	geckodriver	INFO	Listening on 127.0.0.1:47027
+1660640217577	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile7GQJrt"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660640218629	Marionette	INFO	Marionette enabled
+1660640218633	Marionette	INFO	Listening on port 42481
+Read port: 42481
+1660640218787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7GQJrt/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+1660640239680	Marionette	INFO	Stopped listening on port 42481
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660640283962	geckodriver	INFO	Listening on 127.0.0.1:36197
+1660640285026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileBOWo3U"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660640286047	Marionette	INFO	Marionette enabled
+1660640286051	Marionette	INFO	Listening on port 35593
+Read port: 35593
+1660640286234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBOWo3U/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+1660640307250	Marionette	INFO	Stopped listening on port 35593
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660640424610	geckodriver	INFO	Listening on 127.0.0.1:41343
+1660640425678	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileWoEYFA"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1660640426742	Marionette	INFO	Marionette enabled
+1660640426747	Marionette	INFO	Listening on port 38139
+Read port: 38139
+1660640426898	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWoEYFA/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+JavaScript error: resource://gre/modules/URIFixup.jsm, line 278: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: file:////home/suryamr/jira_org/reports/year_2022/month_08/date_16/Test_report_2022_08_16_10_16_56.html, line 1149: TypeError: document.getElementById(...) is null
+1660640448142	Marionette	INFO	Stopped listening on port 38139
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+console.error: "Error during quit-application-granted: [Exception... \"File error: Not found\"  nsresult: \"0x80520012 (NS_ERROR_FILE_NOT_FOUND)\"  location: \"JS frame :: resource:///modules/BrowserGlue.jsm :: _onQuitApplicationGranted/tasks< :: line 2006\"  data: no]"
+1660799903696	geckodriver	INFO	Listening on 127.0.0.1:54647
+1660799903709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofilexcphPP"
+*** You are running in headless mode.
+1660799904126	Marionette	INFO	Marionette enabled
+1660799904131	Marionette	INFO	Listening on port 39765
+Read port: 39765
+1660799904412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexcphPP/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+1660799905948	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1660799957219	geckodriver	INFO	Listening on 127.0.0.1:34503
+1660799957234	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofile55tz2p"
+*** You are running in headless mode.
+1660799957791	Marionette	INFO	Marionette enabled
+1660799957796	Marionette	INFO	Listening on port 45003
+Read port: 45003
+1660799957943	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile55tz2p/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+1660799959670	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1660812148461	geckodriver	INFO	Listening on 127.0.0.1:52619
+1660812148477	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileppCr54"
+*** You are running in headless mode.
+1660812148904	Marionette	INFO	Marionette enabled
+1660812148909	Marionette	INFO	Listening on port 46151
+Read port: 46151
+1660812149051	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileppCr54/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+1660812151027	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1660812262746	geckodriver	INFO	Listening on 127.0.0.1:57819
+1660812262766	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileVNpVSt"
+*** You are running in headless mode.
+1660812263244	Marionette	INFO	Marionette enabled
+1660812263249	Marionette	INFO	Listening on port 42345
+Read port: 42345
+1660812263367	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVNpVSt/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+1660812265111	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1660821089142	geckodriver	INFO	Listening on 127.0.0.1:41371
+1660821089156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofile7TuqUi"
+*** You are running in headless mode.
+1660821089589	Marionette	INFO	Marionette enabled
+1660821089594	Marionette	INFO	Listening on port 45739
+Read port: 45739
+1660821089718	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7TuqUi/search.json.mozlz4", (void 0)))
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.jsm
+Missing chrome or resource URL: resource://gre/modules/UpdateListener.sys.mjs
+1660821091590	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.

@@ -1,0 +1,31 @@
+test_cases/ui/test_jira_add_doc.py::TestCaseJiraAddDoc::test_search_with_valid_value_TP_1[TP-1]   skipped   137.60478473799958
+test_cases/ui/test_jira_add_doc.py::TestCaseJiraAddDoc::test_search_with_valid_value_TP_1[TP-1]   passed   97.48371652199785
+ui/test_jira_add_doc.py::TestCaseJiraAddDoc::test_search_with_valid_value_TP_1[TP-1]   failed   0.8904748459972325
+ui/test_jira_add_doc.py::TestCaseJiraAddDoc::test_search_with_invalid_value_TP_2[TP-2]   failed   0.28183959599846276
+ui/test_report_extract.py::test_report_ext   passed   19.767558368999744
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_1[LB-1]   passed   0.00021969400040688924 Ticket ID - LB-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_3[TP-1]   passed   0.001217297998664435 Ticket ID - TP-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_4[TP-2]   failed   0.0018855089983844664 Ticket ID - TP-2
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_2[LB-3]   failed   0.0003947280019929167 Ticket ID - LB-3
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_1[LB-1]   passed   0.0002596300000732299 Ticket ID - LB-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_3[TP-1]   passed   0.0009181839996017516 Ticket ID - TP-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_4[TP-2]   failed   0.0013237889979791362 Ticket ID - TP-2
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_2[LB-3]   failed   0.001632228999369545 Ticket ID - LB-3
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_1[LB-1]   passed   0.00022912200074642897 Ticket ID - LB-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_3[TP-1]   passed   0.0007195690013759304 Ticket ID - TP-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_4[TP-2]   failed   0.002748214999883203 Ticket ID - TP-2
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_2[LB-3]   failed   0.0009244330030924175 Ticket ID - LB-3
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_1[LB-1]   passed   0.00037092800630489364 Ticket ID - LB-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_3[TP-1]   passed   0.0006896829945617355 Ticket ID - TP-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_4[TP-2]   failed   0.0007599360033054836 Ticket ID - TP-2
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_2[LB-3]   failed   0.00042874999780906364 Ticket ID - LB-3
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_1[LB-1]   passed   0.00022892500419402495 Ticket ID - LB-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_3[TP-1]   passed   0.0005515399971045554 Ticket ID - TP-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_2[LB-2]   passed   0.0002682690028450452 Ticket ID - LB-2
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_4[TP-2]   failed   0.0008333470032084733 Ticket ID - TP-2
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_5[LB-6]   failed   0.0010679510014597327 Ticket ID - LB-6
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_1[LB-1]   passed   0.0002547659969422966 Ticket ID - LB-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_3[TP-1]   passed   0.00027392900301492773 Ticket ID - TP-1
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_2[LB-2]   passed   0.0006583350004802924 Ticket ID - LB-2
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_4[TP-2]   failed   0.0004803909978363663 Ticket ID - TP-2
+ui/test_report_case.py::TestCaseJiraAddDoc::test_search_with_valid_value_5[LB-6]   failed   0.000429003997851396 Ticket ID - LB-6
