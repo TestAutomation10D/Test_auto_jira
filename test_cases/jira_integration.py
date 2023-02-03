@@ -72,11 +72,16 @@ class JiraIntegration:
             with open(env_file, "a") as myfile:
                 myfile.write(f"JIRA_TICKET_ID={self.ticket_id}\n")
                 myfile.write(f"JIRA_ISSUE_ID={self.issue_id}\n")
+                print("github files - "+str(myfile))
         else:
             if not os.environ.get("JIRA_TICKET_ID"):
                 os.environ["JIRA_TICKET_ID"] = self.ticket_id
             if not os.environ.get("JIRA_ISSUE_ID"):
                 os.environ["JIRA_ISSUE_ID"] = self.issue_id
+        ff = open("jira_txt.txt", "w+")
+        ff.write(f"JIRA_TICKET_ID={self.ticket_id}")
+        ff.write(f"JIRA_ISSUE_ID={self.issue_id}")
+        ff.close()
 
     def search_for_ticket_id_using_pr_status(self):
         if self.jira_condition:

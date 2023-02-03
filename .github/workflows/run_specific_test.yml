@@ -22,10 +22,10 @@ jobs:
 
       - name: SET Pull Request and ENV Information
         run: |
-          echo GIT_PR_NUMBER="${{ github.event.number }}" >> $GITHUB_ENV
-          echo GIT_REPOSITORY_NAME="${{ github.event.repository.name }}" >> $GITHUB_ENV
-          echo GIT_ORG_NAME="${{ github.repository_owner }}" >> $GITHUB_ENV
-          echo "BRANCH_NAME=$(echo ${GITHUB_REF#refs/heads/})" >> $GITHUB_ENV
+          echo GIT_PR_NUMBER="1" >> $GITHUB_ENV
+          echo GIT_REPOSITORY_NAME=Test_auto_jira >> $GITHUB_ENV
+          echo GIT_ORG_NAME=TestAutomation10D >> $GITHUB_ENV
+          echo "BRANCH_NAME=test_1" >> $GITHUB_ENV
           echo TC_SANITY_EXECUTION=$(echo ${{ secrets.TC_SANITY_EXECUTION }}) >> $GITHUB_ENV
           echo PREFIX_TICKET_VALUE=$(echo ${{ secrets.PREFIX_TICKET_VALUE }}) >> $GITHUB_ENV
           echo AUTH_TOKEN=$(echo ${{ secrets.AUTH_TOKEN }}) >> $GITHUB_ENV

@@ -199,6 +199,7 @@ def extract_results():
         test_report_ext()
         logging.disable(logging.NOTSET)
         logger.info("System Logs will be Enabled")
+        logging.info(">>>>>>>>>>\n", env_vars)
         if env_vars["JIRA_CONDITION"] == 'True':
             jira_obj = JiraIntegration(**env_vars)
             jira_obj.find_ticket_id_in_jira()
