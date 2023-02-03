@@ -114,12 +114,12 @@ class JiraIntegration:
                         response = requests.request("GET", url, headers=self.headers, params=params)
                         if self.pr_link in str(response.json()):
                             pull_req_details = response.json()["detail"][0]["pullRequests"]
-                            logging.info(f" >>>>> {self.pr}")
-                            logging.info(self.pr_link)
-                            logging.info(pull_req_details)
                             for pr in pull_req_details:
+                                logging.info(f" >>>>> {pr}")
+                                logging.info(self.pr_link)
+                                logging.info(pull_req_details)
                                 if self.pr_link in pr:
-                                    if "MERGED" in pr["status"]:
+                                    if "MERGED" in pr["status"] and pr["url"] == self.pr_link:
                                         count = 1
                                         break
                             if count == 1:
