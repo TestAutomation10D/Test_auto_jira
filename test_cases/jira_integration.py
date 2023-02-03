@@ -137,7 +137,7 @@ class JiraIntegration:
                 self.issue_id = None
                 self.ticket_id = None
                 search_url = f"https://{self.jira_domain}{self.jira_domain_ext}/rest/api/2/search"
-                search_jql_query = f'''project = '{self.jira_project_name}' AND status in ({self.jql_issue_type}) AND "{self.jql_column_name}" ~ "{self.pr_link}" ORDER BY created DESC '''
+                search_jql_query = f'''project = '{self.jira_project_name}' AND statusCategory = "In Progress" AND status in ({self.jql_issue_type}) AND "{self.jql_column_name}" ~ "{self.pr_link}" ORDER BY created DESC'''
                 response = requests.request("GET", search_url, headers=self.headers, params={"jql": search_jql_query})
                 self.ticket_total = (response.json())["total"]
                 if self.ticket_total == 1:
