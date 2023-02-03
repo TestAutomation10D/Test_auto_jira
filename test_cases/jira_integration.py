@@ -123,6 +123,9 @@ class JiraIntegration:
                                 self.ticket_id = self.ticket_id[id]
                                 self.issue_id = self.issue_id[id]
                                 break
+                    if count == 0:
+                        self.ticket_id = None
+                        self.issue_id = None
             except Exception as exp:
                 print(exp)
                 self.ticket_id = None
