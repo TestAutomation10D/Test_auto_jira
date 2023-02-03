@@ -195,8 +195,11 @@ def extract_results():
     try:
         time.sleep(5)
         logger.info("System Logs will be Disabled")
+        logger.info("ENV vars"+str(env_vars))
+        os.system("unset SNAP_NAME")
+        os.system("unset SNAP_INSTANCE_NAME")
         logging.disable(sys.maxsize)
-        test_report_ext()
+        report_ext()
         logging.disable(logging.NOTSET)
         logger.info("System Logs will be Enabled")
         if env_vars["JIRA_CONDITION"] == 'True':
@@ -210,7 +213,7 @@ def extract_results():
         print(exp, "Exporting or attaching result is failed")
 
 
-def test_report_ext():
+def report_ext():
     suite_board = (By.CSS_SELECTOR, '[href="#suites"]')
     test_metrics_board = (By.CSS_SELECTOR, '[href="#test-metrics"]')
     dashboard_pdf = (By.CSS_SELECTOR, '[id="download"] i')
@@ -233,7 +236,7 @@ def test_report_ext():
     profile.set_preference('browser.helperApps.neverAsk.saveToDisk', 'text/plain,application/pdf')
     profile.set_preference('print.always_print_silent', True)
     profile.set_preference("pdfjs.disabled", True)
-    ff_options.headless = True
+    # ff_options.headless = True
     time.sleep(5)
     ffdriver = Firefox(executable_path=GeckoDriverManager().install(), options=ff_options, firefox_profile=profile)
     ffdriver.get("file:///"+os.getcwd()+main_file_path_report[1:])
@@ -297,9 +300,9 @@ def collect_screenshot(item, report):
     if report.outcome in ["failed"]:
         env_file = os.getenv('GITHUB_ENV')
         if env_file:
-            if not os.environ.get("REPORT_STATUS"):
-                with open(env_file, "a") as myfile:
-                    myfile.write("REPORT_STATUS=1\n")
+            with open(env_file, "a") as myfile:
+                myfile.write("REPORT_STATUS=1\n")
+                print("Report status variable set in github")
         else:
             if not os.environ.get("REPORT_STATUS"):
                 os.environ["REPORT_STATUS"] = '1'
