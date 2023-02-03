@@ -78,10 +78,10 @@ class JiraIntegration:
                 os.environ["JIRA_TICKET_ID"] = self.ticket_id
             if not os.environ.get("JIRA_ISSUE_ID"):
                 os.environ["JIRA_ISSUE_ID"] = self.issue_id
-        ff = open("jira_txt.txt", "w+")
-        ff.write(f"JIRA_TICKET_ID={self.ticket_id}")
-        ff.write(f"JIRA_ISSUE_ID={self.issue_id}")
-        ff.close()
+        # ff = open("jira_txt.txt", "w+")
+        # ff.write(f"JIRA_TICKET_ID={self.ticket_id}")
+        # ff.write(f"JIRA_ISSUE_ID={self.issue_id}")
+        # ff.close()
 
     def search_for_ticket_id_using_pr_status(self):
         if self.jira_condition:
@@ -113,7 +113,7 @@ class JiraIntegration:
                         }
                         response = requests.request("GET", url, headers=self.headers, params=params)
                         if self.pr_link in str(response.json()):
-                            pull_req_details = response.json()["detail"]["pullRequests"]
+                            pull_req_details = response.json()["detail"][0]["pullRequests"]
                             for pr in pull_req_details:
                                 if self.pr_link in pr:
                                     if "MERGED" in pr["status"]:
