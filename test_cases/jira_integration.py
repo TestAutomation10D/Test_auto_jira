@@ -140,6 +140,7 @@ class JiraIntegration:
                 search_jql_query = f'''project = '{self.jira_project_name}' AND statusCategory = "In Progress" AND status in ({self.jql_issue_type}) AND "{self.jql_column_name}" ~ "{self.pr_link}" ORDER BY created DESC'''
                 response = requests.request("GET", search_url, headers=self.headers, params={"jql": search_jql_query})
                 self.ticket_total = (response.json())["total"]
+                print(search_jql_query)
                 if self.ticket_total == 1:
                     self.issue_id = (response.json())["issues"][0]["id"]
                     self.ticket_id = (response.json())["issues"][0]["key"]
