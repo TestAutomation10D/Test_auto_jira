@@ -169,7 +169,7 @@ class JiraIntegration:
                     else:
                         pass
             except Exception as exp:
-                print(exp)
+                print("TICKET ID not found", "Exception:"+exp)
                 self.ticket_id = None
                 self.issue_id = None
 
