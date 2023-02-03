@@ -59,6 +59,8 @@ def pytest_cmdline_main(config):
     main_file_path_report = f"./reports/year_{year}/month_{month}/date_{date}/{report_name}_{timestamp}"
     if pr_number:
         report_name += "_pr_no_" + pr_number
+    os.environ["REPORT_NAME"] = report_name
+    logging.info(os.environ.get("REPORT_NAME"), "Report_name")
     main_file_path_report += f"/{report_name.capitalize()}_{timestamp}.html"
     config.option.path = main_file_path_report
 
@@ -199,6 +201,7 @@ def extract_results():
         test_report_ext()
         logging.disable(logging.NOTSET)
         logger.info("System Logs will be Enabled")
+        logging.info(">>>>>>>>>>\n", env_vars)
         if env_vars["JIRA_CONDITION"] == 'True':
             jira_obj = JiraIntegration(**env_vars)
             jira_obj.find_ticket_id_in_jira()

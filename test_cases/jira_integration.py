@@ -72,11 +72,16 @@ class JiraIntegration:
             with open(env_file, "a") as myfile:
                 myfile.write(f"JIRA_TICKET_ID={self.ticket_id}\n")
                 myfile.write(f"JIRA_ISSUE_ID={self.issue_id}\n")
+                print("github files - "+str(myfile))
         else:
             if not os.environ.get("JIRA_TICKET_ID"):
                 os.environ["JIRA_TICKET_ID"] = self.ticket_id
             if not os.environ.get("JIRA_ISSUE_ID"):
                 os.environ["JIRA_ISSUE_ID"] = self.issue_id
+        ff = open("jira_txt.txt", "w+")
+        ff.write(f"JIRA_TICKET_ID={self.ticket_id}")
+        ff.write(f"JIRA_ISSUE_ID={self.issue_id}")
+        ff.close()
 
     def search_for_ticket_id_using_pr_status(self):
         if self.jira_condition:
@@ -132,9 +137,10 @@ class JiraIntegration:
                 self.issue_id = None
                 self.ticket_id = None
                 search_url = f"https://{self.jira_domain}{self.jira_domain_ext}/rest/api/2/search"
-                search_jql_query = f'''project = '{self.jira_project_name}' AND status in ({self.jql_issue_type}) AND "{self.jql_column_name}" ~ "{self.pr_link}" ORDER BY created DESC '''
+                search_jql_query = f'''project = '{self.jira_project_name}' AND statusCategory = "In Progress" AND status in ({self.jql_issue_type}) AND "{self.jql_column_name}" ~ "{self.pr_link}" ORDER BY created DESC'''
                 response = requests.request("GET", search_url, headers=self.headers, params={"jql": search_jql_query})
                 self.ticket_total = (response.json())["total"]
+                print(search_jql_query)
                 if self.ticket_total == 1:
                     self.issue_id = (response.json())["issues"][0]["id"]
                     self.ticket_id = (response.json())["issues"][0]["key"]
