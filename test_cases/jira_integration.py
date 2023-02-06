@@ -4,7 +4,7 @@ import os
 from os.path import join, dirname
 import requests
 from dotenv import load_dotenv
-import ast
+import ast, logging
 
 
 class JiraIntegration:
@@ -78,10 +78,10 @@ class JiraIntegration:
                 os.environ["JIRA_TICKET_ID"] = self.ticket_id
             if not os.environ.get("JIRA_ISSUE_ID"):
                 os.environ["JIRA_ISSUE_ID"] = self.issue_id
-        ff = open("jira_txt.txt", "w+")
-        ff.write(f"JIRA_TICKET_ID={self.ticket_id}")
-        ff.write(f"JIRA_ISSUE_ID={self.issue_id}")
-        ff.close()
+        # ff = open("jira_txt.txt", "w+")
+        # ff.write(f"JIRA_TICKET_ID={self.ticket_id}")
+        # ff.write(f"JIRA_ISSUE_ID={self.issue_id}")
+        # ff.close()
 
     def search_for_ticket_id_using_pr_status(self):
         if self.jira_condition:
@@ -115,14 +115,20 @@ class JiraIntegration:
                         if self.pr_link in str(response.json()):
                             pull_req_details = response.json()["detail"]["pullRequests"]
                             for pr in pull_req_details:
+                                logging.info(f" >>>>> {pr}")
+                                logging.info(self.pr_link)
+                                logging.info(pull_req_details)
                                 if self.pr_link in pr:
-                                    if "MERGED" in pr["status"]:
+                                    if "MERGED" in pr["status"] and pr["url"] == self.pr_link:
                                         count = 1
                                         break
                             if count == 1:
                                 self.ticket_id = self.ticket_id[id]
                                 self.issue_id = self.issue_id[id]
                                 break
+                    if count == 0:
+                        self.ticket_id = None
+                        self.issue_id = None
             except Exception as exp:
                 print(exp)
                 self.ticket_id = None
