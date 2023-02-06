@@ -113,7 +113,7 @@ class JiraIntegration:
                         }
                         response = requests.request("GET", url, headers=self.headers, params=params)
                         if self.pr_link in str(response.json()):
-                            pull_req_details = response.json()["detail"][0]["pullRequests"]
+                            pull_req_details = response.json()["detail"]["pullRequests"]
                             for pr in pull_req_details:
                                 logging.info(f" >>>>> {pr}")
                                 logging.info(self.pr_link)
