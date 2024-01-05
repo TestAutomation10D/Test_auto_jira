@@ -1,12 +1,7 @@
 import os
 
-# Set a value in os.environ
-os.environ['MY_VARIABLE'] = 'Hello, GitHub Actions!'
+# Set environment variable using os.system
+os.system('echo "MY_VARIABLE=Hello, GitHub Actions!" >> $GITHUB_ENV')
 
 # Print the value
-print(f"MY_VARIABLE set to: {os.environ['MY_VARIABLE']}")
-
-env_file = os.getenv('GITHUB_ENV')
-if env_file:
-    with open(env_file, "a") as myfile:
-        myfile.write("MY_VARIABLE=1\n")
+print(f"MY_VARIABLE set to: {os.getenv('MY_VARIABLE')}")
