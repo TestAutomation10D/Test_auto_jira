@@ -1,4 +1,4 @@
-name: Run workflow for PR
+name: Run OS test
 on:
   workflow_dispatch:
     inputs:
