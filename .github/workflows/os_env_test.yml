@@ -23,5 +23,8 @@ jobs:
       - name: SET Pull Request and ENV Information
         run: |
           python3 os_env_test.py
-          echo $MY_VARIABLE
+          echo ${{ env.MY_VARIABLE }}
           echo "Workflow file ended"
+      
+      - name: Print statement
+        run: echo ${{ env.MY_VARIABLE }}
