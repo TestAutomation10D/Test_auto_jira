@@ -24,3 +24,4 @@ jobs:
         run: |
           python3 os_env_test.py
           echo $MY_VARIABLE
+          echo "Workflow file ended"
